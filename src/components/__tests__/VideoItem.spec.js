@@ -2,7 +2,7 @@ import React from "react";
 import { create } from "react-test-renderer";
 import VideoItem from "../VideoItem";
 
-describe("Video Item", () => {
+describe("VideoItem", () => {
   // API data mockup
   test("it changes video selected when clicked", () => {
     const video = {
